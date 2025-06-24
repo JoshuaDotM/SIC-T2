@@ -87,3 +87,17 @@ To update my remote repo w.r.t. local repo:
 1. stage	2. commit 	3. push
 
 $ git add 
+
+
+
+----foot note (day 2)
+Important git commands:
+1.Stage the files (choose/create the list of files to be updated : partial staging is also possible)
+unstaging(deleting the lists)
+2.Commit - creating the object in which the files part of the list will be copied (soft copy) git will encrypt the required files
+3.Push - the object is sent to the repo via the internet , default branch is the main branch
+
+uniprocss appl - each process is executed one at a time
+multithreaded appl - git
+type command will type the content of the files 
+always do pull (the local repo should always be updated)
