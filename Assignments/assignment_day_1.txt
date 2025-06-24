@@ -1,0 +1,12 @@
+Assignment 1 :
+what happens if I add a x.txt file remotely to the repo and a y.txt file to the repo locally.
+there are 2 cases :
+1.you run git pull first
+	.git fetches the remote changes(x.txt), merges it with your local changes(y.txt). 
+	.git pull=git fetch (it first downloads the remote changes ) + git merge (merges it into its current branch)
+	.The merge will be succesful as there is no conflicts ; two different files are added
+	.now we run the 'git push' command to save the local changes in the remote repo
+	.this is the safe and standard order
+2.you run git push first
+	.git sees your local repo is behind remote(it doesnt have the x.txt present in remote repo)
+	.so the push cammand is rejected by default raising an error so you are forced to pull first.
