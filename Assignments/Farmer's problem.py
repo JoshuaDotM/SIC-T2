@@ -35,3 +35,8 @@ def farmer_sales():
     print(f"Sales from Chemical-Free Farming (after 11 months): ₹{chemical_free_sales:,.2f}")
 
 farmer_sales()
+
+'''
+footnotes-Since making the sugarcane field chemical free takes 4 months from the month 8, at 11 months it would still not be completely chemical free. 
+Therefore we should noy add them to the chemical free yield at 11 months.
+'''
