@@ -1,4 +1,11 @@
-name=input("Enter your name : ")
+while True:
+    name=input("Enter your name : ")
+    if name.isalpha() and len(name)<50:
+        print("Valid Name")
+        break
+    else:
+        input("Re-enter a valid name : ")
+    
 emp_id=int(input("Enter your unique employee ID : "))
 basic_salary=int(input("Enter your basic salary : "))
 special_allowances=int(input("Enter your monthly special allowances : "))
