@@ -43,8 +43,8 @@ chemical_free_sales = (
     sunflower_revenue
 )
 
-print(f"Total Sales from 80 acres: ₹{total_sales}")
-print(f"Sales from Chemical-Free Farming (after 11 months): ₹{chemical_free_sales}")
+print(f"Total Sales from 80 acres: rupees{total_sales}")
+print(f"Sales from Chemical-Free Farming (after 11 months): rupees{chemical_free_sales}")
 
 
 '''
