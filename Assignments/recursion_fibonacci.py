@@ -1,4 +1,4 @@
-# Here the initial values are taken as 1 and 2 instead of 0 and 1.
+# Here the initial values are taken as 1 and 2 instead of the default 0 and 1.
 def fibonacci(n):
     if n==0:
         return 1
