@@ -12,3 +12,13 @@ print(magic_mirror('sample','plesam'))
 
 print(magic_mirror('saMple','plesam'))
 
+
+
+def rotation(initial_word,rotated_word):
+    (initial_word.split()).sort
+    (rotated_word.split().sort)
+    if initial_word==rotated_word:
+        return 1
+    else:
+        return -1
+rotation('bengaluru','luurbenga')
